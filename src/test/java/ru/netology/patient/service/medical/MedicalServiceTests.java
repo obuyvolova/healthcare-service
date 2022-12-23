@@ -1,3 +1,5 @@
+package ru.netology.patient.service.medical;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -10,7 +12,6 @@ import ru.netology.patient.entity.HealthInfo;
 import ru.netology.patient.entity.PatientInfo;
 import ru.netology.patient.repository.PatientInfoFileRepository;
 import ru.netology.patient.service.alert.SendAlertService;
-import ru.netology.patient.service.medical.MedicalServiceImpl;
 
 import java.math.BigDecimal;
 import java.util.stream.Stream;
